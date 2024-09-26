@@ -77,6 +77,7 @@ export const tabs = [
                 dest: `https://sleeper.app/leagues/${leagueID}`,
             },
         ]
+<<<<<<< HEAD
     },
     {
         icon: 'lightbulb',
@@ -84,4 +85,7 @@ export const tabs = [
         dest: '/resources',
         key: 'resources',
     },
+=======
+    }
+>>>>>>> 0b4179f (Removes Resources Section)
 ];
