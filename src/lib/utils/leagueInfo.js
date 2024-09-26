@@ -24,7 +24,6 @@ export const managers = [
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "managerID": "855933294594879488",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Mason Russell",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "ATL", // (optional)
        "bio": "Supreme Commissioner.",
        "photo": "/managers/mason.png", // square ratio recommended (no larger than 500x500)
@@ -47,7 +46,6 @@ export const managers = [
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "988913995279036416",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Conner",
-      //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "TUL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/conner.png", // square ratio recommended (no larger than 500x500)
@@ -70,11 +68,10 @@ export const managers = [
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "985202843810332672",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Cat",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "ATL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/catherine.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -93,11 +90,10 @@ export const managers = [
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "988914274368020480",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Spencer",
-      "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "DAL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/spencer.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -116,11 +112,10 @@ export const managers = [
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "988915756895113216",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Madelyn",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "DAL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/madelyn.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -139,7 +134,6 @@ export const managers = [
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "988915873790459904",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Griff",
-      //"tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "WAS", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/griff.png", // square ratio recommended (no larger than 500x500)
@@ -162,7 +156,6 @@ export const managers = [
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "870168774161178624",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Jared",
-      //"tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "TUL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/jared.png", // square ratio recommended (no larger than 500x500)
@@ -185,11 +178,10 @@ export const managers = [
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "865123387251519488",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Andrew",
-      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "DAL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/andrew.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -208,11 +200,10 @@ export const managers = [
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "990773448974618624",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Ryan",
-      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "DAL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/ryan.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -231,11 +222,10 @@ export const managers = [
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "992614081347579904",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Uriah",
-      "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "DAL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/uriah.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -254,11 +244,10 @@ export const managers = [
       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "862460871958462464",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Travis",
-      "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "DAL", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/travis.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -277,11 +266,10 @@ export const managers = [
       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1000454257784463360",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Blake",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "NWA", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/blake.png", // square ratio recommended (no larger than 500x500)
-      //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2024, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "kc", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
