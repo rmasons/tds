@@ -168,7 +168,7 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 2 drafts away) is allowed. Trades will process immediately and will be reversed if under investigation for collusion. <ul>Trades will not be reversed if one party is a dipshit.</ul> Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 2 drafts away) is allowed. Trades will process immediately and will be reversed if under investigation for collusion. <u>Trades will not be reversed if one party is a dipshit.</u> Tradable assets include players, draft picks, and FAAB $.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
