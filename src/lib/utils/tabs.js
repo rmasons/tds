@@ -75,17 +75,7 @@ export const tabs = [
                 icon: 'sports_football',
                 label: 'Go to Sleeper',
                 dest: `https://sleeper.app/leagues/${leagueID}`,
-            },
+            }
         ]
-<<<<<<< HEAD
-    },
-    {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
-        key: 'resources',
-    },
-=======
     }
->>>>>>> 0b4179f (Removes Resources Section)
 ];
