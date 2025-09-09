@@ -39,7 +39,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=v20.0.0",
+    "node": ">=v22.0.0",
     "npm": ">=6.0.0"
   },
   "scripts": {
@@ -62,7 +62,8 @@
     "contentful-management": "^10.46.4",
     "cookie": "^0.7.0",
     "fast-xml-parser": "^4.2.5",
-    "fuzzyjs": "^5.0.1"
+    "fuzzyjs": "^5.0.1",
+    "vite": "^6.3.5"
   },
   "devDependencies": {
     "@smui/button": "^8.0.0-beta.3",
@@ -76,9 +77,9 @@
     "@smui/tab": "^8.0.0-beta.3",
     "@smui/tab-bar": "^8.0.0-beta.3",
     "@smui/textfield": "^8.0.0-beta.3",
-    "@sveltejs/adapter-node": "^5.2.12",
-    "@sveltejs/adapter-vercel": "^5.5.3",
-    "@sveltejs/kit": "^2.16.1",
+    "@sveltejs/adapter-node": "^0.0.18",
+    "@sveltejs/adapter-vercel": "^0.0.3",
+    "@sveltejs/kit": "^2.27.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
